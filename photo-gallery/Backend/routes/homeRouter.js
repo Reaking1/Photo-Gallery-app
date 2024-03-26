@@ -7,4 +7,4 @@ router.get('/', function (req, res) {
     //Simple html response
     res.send('<h1>Hello welcome to building this project');
 });
-module.exports = router
+exports.default = router;
